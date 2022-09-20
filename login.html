@@ -8,7 +8,14 @@
 </head>
 
 <body style="margin: 35px;">
+    <div>
+    <h1>Cadastro de novos alunos</h1>
+    <p>Preencha os campos abaixo de acordo com as informações solicitadas. </p>
+</div>
+
     <form action="">
+     <fieldset>
+       <div>
         <h4>Dados pessoais</h4>
 <label for="">Nome:</label>
 <input type="text"> .
@@ -19,15 +26,31 @@
 <label for="">CPF:</label>
 <input type="number"> <br><br>
 <label for="">Data de nascimento:</label>
+<input type="date"> <br><br></div>
+</fieldset> <br>
+
+<fieldset>
+    <div>
 <h4>Dados para Login</h4>
-<input type="date"> <br><br>
 <label>E-mail:</label>
 <input type="e-mail">
  <label>Username:</label>
  <input type="text" placeholder="ex.: seu_nome"> <br> <br>
  <label for="">Senha:</label>
- <input type="password" placeholder="mínimo 8 caracteres">
+ <input type="password" placeholder="mínimo 8 caracteres"></div> 
+</fieldset> <br> 
+ <fieldset>
+    <div>
+        <h4>Você irá optar por qual modalidade de curso?</h4>
+        <label>Assinale a opção desejada</label><br> <br>
+        <input type="radio" name="modalidade" value="Presencial"> Presencial
+        <input type="radio" name="modalidade" value="EAD"> EAD
+        <input type="radio" name="modalidade" value="Híbrido"> Híbrido
+        
+    </div>
+   
 
+</fieldset>
 
     </form>
 </body>
